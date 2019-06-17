@@ -1,0 +1,49 @@
+
+.item-main{
+	padding-top:10px;
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+.seller{
+  max-width: 1000px;
+  position: relative;
+  margin:10px auto;
+}
+.left{
+	display:inline-block;
+	float:left;
+	width:10%;
+}
+.seller-info{
+    width:84vw;
+    margin:0 auto;
+    float:left;
+    display: inline-block;
+}
+.follow{
+    width: 20%;
+	display:inline-block;
+	float:left;
+}
+.description{
+    padding-top:20px;
+    width: 100%;
+    height:auto;
+}
+.save{
+    width: 10%;
+    display: inline-block;
+    float:right;
+}
+.info-container{
+    width: 90vw;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+#item-badge{
+    max-width: 82.5%;
+    position: relative;
+    margin-top:20px;
+    margin-bottom: 15px;
+}
