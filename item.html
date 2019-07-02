@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     
-    <head>
+    <header>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>ITEM</title>
@@ -10,14 +10,15 @@
 		<link rel="stylesheet" type="text/css" href="profile.css">
 		<script src="responsive-switch.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    </head>
+    </header>
+
 <body>
-	<!--update change class to hideoverlay, z-index to 23-->
+    
 	<div class="hideoverlay" id="backdrop" style="position: fixed;width: 100%;height: 100%;
 background: rgba(0,0,0,0.5); z-index:23;"></div>
 
     <form id="form1">
-		<div class="navbar" id="myTopnav">
+		<nav class="navbar" id="myTopnav">
 		  <a href="#">Pokémon TCG: Sun &amp; Moon</a>
 		  <div class="dropdown">
 			<div class="dropbtn"><img class="avatar" alt="profile image" src="images/pika.png">&nbsp;Menu&nbsp;&nbsp;
@@ -32,11 +33,10 @@ background: rgba(0,0,0,0.5); z-index:23;"></div>
 			</div>
 		  </div>
 		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="responsivefun()">&#9776;</a>
-		</div>
+		</nav>
 
-        <div class="main">
+        <main class="main">
 			<div id="topBtn" onclick="topFunction()">Top</div>
-            <!--updates-->
             <!--insert new item-->
 			
 			<div id="model" class="container hide">
@@ -100,14 +100,13 @@ background: rgba(0,0,0,0.5); z-index:23;"></div>
                 </div>
             </div>
                 
-        </div>
+        </main>
         
-        <div class="footer">
+        <footer class="footer">
 			<p style="text-align:center;">Pokémon ポケットモンスターシリーズ</p>
-		</div>
+		</footer>
     </form>
 	
-	<!--updated-->
 	<script src="profile.js"></script>
 
 </body>

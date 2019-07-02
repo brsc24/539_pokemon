@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>    
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<header>    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<!--updated-->
     <link rel="stylesheet" type="text/css" href="styles.css" />
@@ -10,22 +10,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
     <title>Sun &amp; Moon Card Collection</title>
-</head>
+</header>
  
 <body>
-	<!--update change class to hideoverlay, z-index to 23-->
 	<div class="hideoverlay" id="backdrop" style="position: fixed;width: 100%;height: 100%;
 background: rgba(0,0,0,0.5); z-index:23;"></div>
 
     <form id="form1">
-		<div class="navbar" id="myTopnav">
+		<nav class="navbar" id="myTopnav">
 		  <a href="#">Pokémon Sun &amp; Moon</a>
 		  <div class="dropdown">
 			<div class="dropbtn"><img class="avatar" alt="profile image" src="images/pika.png">&nbsp;Menu&nbsp;&nbsp;
 			  <i class="down"></i>
 			</div>
 			<div class="dropdown-content">
-                <!-- updated-->
                 <a href="#" class="rs-link hide" data-link-desktop="Switch to desktop version" data-link-responsive="Switch to responsive / mobile version"></a>    
                 <a href="index.html">Sun &amp; Moon</a>   
                 <a href="profile.html">Pokémon Series</a>  
@@ -34,9 +32,9 @@ background: rgba(0,0,0,0.5); z-index:23;"></div>
 			</div>
 		  </div>
 		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="responsivefun()">&#9776;</a>
-		</div>
+		</nav>
 
-        <div class="main">
+        <main class="main">
 			<div id="topBtn" onclick="topFunction()">Top</div>
 			
             <!--insert new item-->			
@@ -106,7 +104,6 @@ background: rgba(0,0,0,0.5); z-index:23;"></div>
 			<div class="item_main">
 				<div class="centerwrapper">
 					<div class="item block-25">
-						<div class="mark"></div>
 						<img class="item_img" src="images/d_76.jpg" alt=""/>
 						<div class="item_info">
                             <div class="cate-row">
@@ -119,7 +116,6 @@ background: rgba(0,0,0,0.5); z-index:23;"></div>
 						</div>
 					</div>
 					<div class="item block-25">
-						<div class="mark"></div>
 						<img class="item_img" src="images/d_78.jpg" alt=""/>
 						<div class="item_info">
                             <div class="cate-row">
@@ -132,7 +128,6 @@ background: rgba(0,0,0,0.5); z-index:23;"></div>
 						</div>
 					</div>
 					<div class="item block-25">
-						<div class="mark"></div>
 						<img class="item_img" src="images/d_80.jpg" alt=""/>
 						<div class="item_info">
                             <div class="cate-row">
@@ -146,7 +141,6 @@ background: rgba(0,0,0,0.5); z-index:23;"></div>
 					</div>
 										
 					<div class="item block-25">
-						<div class="mark"></div>
 						<img class="item_img" src="images/p_54.jpg" alt=""/>
 						<div class="item_info">
                             <div class="cate-row">
@@ -159,7 +153,6 @@ background: rgba(0,0,0,0.5); z-index:23;"></div>
 						</div>
 					</div>
 					<div class="item block-25">
-						<div class="mark"></div>
 						<img class="item_img" src="images/p_60.jpg" alt=""/>
 						<div class="item_info">
                             <div class="cate-row">
@@ -172,7 +165,6 @@ background: rgba(0,0,0,0.5); z-index:23;"></div>
 						</div>
 					</div>
 					<div class="item block-25">
-						<div class="mark"></div>
 						<img class="item_img" src="images/p_61.jpg" alt=""/>
 						<div class="item_info">
                             <div class="cate-row">
@@ -185,7 +177,6 @@ background: rgba(0,0,0,0.5); z-index:23;"></div>
 						</div>
 					</div>
 					<div class="item block-25">
-						<div class="mark"></div>
 						<img class="item_img" src="images/p_64.jpg" alt=""/>
 						<div class="item_info">
                             <div class="cate-row">
@@ -198,7 +189,6 @@ background: rgba(0,0,0,0.5); z-index:23;"></div>
 						</div>
 					</div>
 					<div class="item block-25">
-						<div class="mark"></div>
 						<img class="item_img" src="images/m_89.jpg" alt=""/>
 						<div class="item_info">
                             <div class="cate-row">
@@ -213,11 +203,11 @@ background: rgba(0,0,0,0.5); z-index:23;"></div>
 					
                 </div>
             </div>
-        </div>
+        </main>
 		
-		<div class="footer">
+		<footer class="footer">
 			<p style="text-align:center;">Pokémon ポケットモンスターシリーズ</p>
-		</div>
+		</footer>
 
     </form>
 

@@ -190,40 +190,6 @@ i {
 	background-color:white;
 	min-height:400px;
 }
-.mark{
-	margin: 10px;
-	width: 0;
-	height: 28px;
-	border-left: 8px solid white;
-	border-right: 8px solid white;
-	border-bottom: 8px solid transparent;
-	z-index: 1;
-	position:absolute;
-    transition: all 0.2s;/*new updates*/
-}
-.mark.yellow {
-    /*update*/
-	margin: 10px;
-	width: 0;
-	height: 28px;
-	border-left: 8px solid yellow;
-	border-right: 8px solid yellow;
-	border-bottom: 8px solid transparent;
-	z-index: 1;
-	position:absolute;
-	cursor:pointer;  
-}
-.mark:hover{
-	margin: 10px;
-	width: 0;
-	height: 28px;
-	border-left: 8px solid yellow;
-	border-right: 8px solid yellow;
-	border-bottom: 8px solid transparent;
-	z-index: 1;
-	position:absolute;
-	cursor:pointer;
-}
 .cate-row{
     width:100%;
 }
